@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Exam_Prep.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exam_Prep.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Exam_PrepEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Temp.txt" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Exam_Prep">
+      <UniqueIdentifier>{3ACCCB0B-499B-3196-A188-6266180D8979}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Exam_Prep\Exam_Prep.Build.cs">
+      <Filter>Source\Exam_Prep</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Exam_Prep\Exam_Prep.cpp">
+      <Filter>Source\Exam_Prep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Exam_Prep.h">
+      <Filter>Source\Exam_Prep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Exam_PrepCharacter.cpp">
+      <Filter>Source\Exam_Prep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Exam_PrepCharacter.h">
+      <Filter>Source\Exam_Prep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Exam_PrepGameMode.cpp">
+      <Filter>Source\Exam_Prep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Exam_PrepGameMode.h">
+      <Filter>Source\Exam_Prep</Filter>
+    </ClCompile>
+    <Filter Include="Source\Exam_Prep\Enemy">
+      <UniqueIdentifier>{DFCA5CD5-DD41-3275-9349-60AF580F8EA4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_Allocate.cpp">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_Allocate.h">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_DropItem.cpp">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_DropItem.h">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_AIController.cpp">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_AIController.h">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_Character.cpp">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_Character.h">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_TargetPoint.cpp">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_TargetPoint.h">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <Filter Include="Source\Exam_Prep\Tracker">
+      <UniqueIdentifier>{6C63C6A0-9D0F-340D-82DB-6D3B5CD44C59}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracker_AIController.cpp">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracker_AIController.h">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracker_Character.cpp">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracker_Character.h">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <Filter Include="Source\Exam_Prep\Universal">
+      <UniqueIdentifier>{81BC69C1-4512-385A-8018-1620B8C24658}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Universal\BT_Retrieve.cpp">
+      <Filter>Source\Exam_Prep\Universal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Universal\BT_Retrieve.h">
+      <Filter>Source\Exam_Prep\Universal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\unrealeditor\\inc\\exam_prep\\uht\\exam_prep.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\x64\\exam_prepeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exam_prep\\definitions.exam_prep.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\unrealeditor\\inc\\exam_prep\\uht\\exam_prepgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\x64\\exam_prepeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exam_prep\\definitions.exam_prep.h",
+            "c:\\users\\lenovo\\documents\\projects\\exam_prep\\source\\exam_prep\\exam_prepgamemode.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\users\\lenovo\\documents\\projects\\exam_prep\\intermediate\\build\\win64\\unrealeditor\\inc\\exam_prep\\uht\\exam_prepgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
