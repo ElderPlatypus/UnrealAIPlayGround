@@ -32,16 +32,21 @@ public:
 	void SetSpeed(float newSpeed);
 
 	//_____________Spawner_____________
-	TObjectPtr<class ATrackerSpawn> spawner;
-
-	//_____________Spawner_____________
 	TArray<TObjectPtr<ATracking_TargetPoint>> mRetriveTargets;
 	int32 currentIndex = 0;
 
-private:
-	float speedControl = 0.f;
-	bool isTurning;
 
+	//_____________Follow Player_____________
+	UPROPERTY(EditAnywhere, Category = "Spawn Member")
+	bool isFollowing = false;
 
+	//_____________Follow Player_____________
+	UPROPERTY(EditAnywhere, Category = "Spawn Member")
+	bool isTurning = false;
+
+	//_____________Util_____________
 	FQuat LookAt(const FVector& lookAt, const FVector& upDirection);
+
+	UPROPERTY(EditAnywhere, Category = "Spawn Member")
+	float speedControl = 0.f;
 };

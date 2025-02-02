@@ -2,11 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Exam_Prep.cpp.obj": [
-			"PerModuleInline.gen.cpp.obj",
-			"Enemy_TargetPoint.cpp.obj",
-			"Exam_Prep.cpp.obj",
-			"Exam_PrepCharacter.cpp.obj",
-			"Exam_PrepGameMode.cpp.obj",
 			"BoidCharacter.gen.cpp.obj",
 			"BoidSpawner.gen.cpp.obj",
 			"BT_Allocate.gen.cpp.obj",
@@ -16,25 +11,30 @@
 			"Enemy_AIController.gen.cpp.obj",
 			"Enemy_Character.gen.cpp.obj",
 			"Enemy_TargetPoint.gen.cpp.obj",
-			"Exam_Prep.init.gen.cpp.obj",
 			"Exam_PrepCharacter.gen.cpp.obj",
 			"Exam_PrepGameMode.gen.cpp.obj",
-			"TrackerSpawn.gen.cpp.obj",
 			"Tracker_AIController.gen.cpp.obj",
-			"Tracker_Character.gen.cpp.obj",
 			"Tracking_TargetPoint.gen.cpp.obj",
-			"BT_Allocate.cpp.obj",
-			"BT_DropItem.cpp.obj",
-			"BT_Retrieve.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
 			"Enemy_AIController.cpp.obj",
 			"Enemy_Character.cpp.obj",
+			"Enemy_TargetPoint.cpp.obj",
+			"Exam_Prep.cpp.obj",
+			"Exam_PrepCharacter.cpp.obj",
+			"Exam_PrepGameMode.cpp.obj",
 			"BoidCharacter.cpp.obj",
 			"BoidSpawner.cpp.obj",
 			"BT_SetTargets.cpp.obj",
-			"TrackerSpawn.cpp.obj",
 			"Tracker_AIController.cpp.obj",
-			"Tracker_Character.cpp.obj",
-			"Tracking_TargetPoint.cpp.obj"
+			"Tracking_TargetPoint.cpp.obj",
+			"Exam_Prep.init.gen.cpp.obj",
+			"TrackerSpawn.gen.cpp.obj",
+			"Tracker_Character.gen.cpp.obj",
+			"BT_Allocate.cpp.obj",
+			"BT_DropItem.cpp.obj",
+			"BT_Retrieve.cpp.obj",
+			"TrackerSpawn.cpp.obj",
+			"Tracker_Character.cpp.obj"
 		]
 	}
 }

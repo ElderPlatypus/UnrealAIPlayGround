@@ -50,7 +50,7 @@ EBTNodeResult::Type UBT_Allocate::ExecuteTask(UBehaviorTreeComponent& OwnerComp,
 
 	// Retrieve Update item to steal
 	TObjectPtr<AActor> CurrentItem = Cast<AActor>(BlackBoard->GetValueAsObject("Items"));
-	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT("Item Allocated is: %s"), *CurrentItem->GetName()));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT("Item Allocated is: %s"), *CurrentItem->GetName()));
 
 	CurrentItem->SetActorEnableCollision(false);
 	CurrentItem->DisableComponentsSimulatePhysics();

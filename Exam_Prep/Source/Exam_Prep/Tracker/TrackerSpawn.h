@@ -24,8 +24,11 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	//_____________Spawner & Parameters_____________
-	UPROPERTY(EditAnywhere, Category = "Spawn Object")
-	TSubclassOf<class ATracker_Character> SubTracker;
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TArray<TObjectPtr<AActor>> TrackerSpawn;
+
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TSubclassOf<AActor> TrackerToSpawn;
 
 	UPROPERTY(EditAnywhere, Category = "Spawn Member")
 	int NumTrackers = 20;
@@ -34,11 +37,17 @@ public:
 	FVector SpawnOrigin = FVector::ZeroVector;
 
 	UPROPERTY(EditAnywhere, Category = "Spawn Member")
-	FVector SpawnLim = FVector::ZeroVector;
+	FVector SpawnOffset= FVector::ZeroVector;
 
 	UPROPERTY(EditAnywhere, meta = (UIMin = "100", UIMax = "500"), Category = "Spawn Member")
-	float MinSpeed = 0;
+	float Speed = 0;
 
-	UPROPERTY(EditAnywhere, meta = (UIMin = "100", UIMax = "500"), Category = "Spawn Member")
-	float MaxSpeed = 0;
+	//_____________Retrieve Tracker_____________
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TObjectPtr<class ATracker_Character> Tracker;
+
+private:
+	void Spawn();
+	void Follow(float _deltaTime);
+	void Turning(float _deltaTime);
 };

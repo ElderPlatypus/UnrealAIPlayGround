@@ -52,7 +52,7 @@ EBTNodeResult::Type UBT_Retrieve::ExecuteTask(UBehaviorTreeComponent& OwnerComp,
 	// Retrieve Update item to steal
 	TObjectPtr<AActor> CurrentItem = Enemy->mRetriveObjects[0];
 	BlackBoard->SetValueAsObject("Items", Cast<UObject>(CurrentItem));
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("Item set: %s"), *CurrentItem->GetName()));
+	//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("Item set: %s"), *CurrentItem->GetName()));
 
 	return EBTNodeResult::Succeeded;
 }

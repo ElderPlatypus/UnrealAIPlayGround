@@ -56,7 +56,7 @@ EBTNodeResult::Type UBT_DropItem::ExecuteTask(UBehaviorTreeComponent& OwnerComp,
 	CurrentObject->GetRootComponent()->CreatePhysicsState(true);
 	//CurrentObject->Destroy();
 	Enemy->mRetriveObjects.RemoveAt(0);
-	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT("Item Dropped")));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, FString::Printf(TEXT("Item Dropped")));
 
 	return EBTNodeResult::Succeeded;
 }
