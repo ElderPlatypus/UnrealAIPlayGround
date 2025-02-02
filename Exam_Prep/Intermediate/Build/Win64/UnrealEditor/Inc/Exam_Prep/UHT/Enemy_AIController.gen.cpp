@@ -41,7 +41,13 @@ struct Z_Construct_UClass_AEnemy_AIController_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_mEnemyBT_MetaData[] = {
 		{ "Category", "AI Controller" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//___________Behaviour Tree_________________\n" },
+#endif
 		{ "ModuleRelativePath", "Enemy/Enemy_AIController.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "___________Behaviour Tree_________________" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_mEnemyBTC_MetaData[] = {
 		{ "Category", "AI Controller" },
@@ -110,14 +116,14 @@ AEnemy_AIController::~AEnemy_AIController() {}
 // End Class AEnemy_AIController
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy_AIController, AEnemy_AIController::StaticClass, TEXT("AEnemy_AIController"), &Z_Registration_Info_UClass_AEnemy_AIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_AIController), 447297784U) },
+		{ Z_Construct_UClass_AEnemy_AIController, AEnemy_AIController::StaticClass, TEXT("AEnemy_AIController"), &Z_Registration_Info_UClass_AEnemy_AIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_AIController), 226472735U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_3201389688(TEXT("/Script/Exam_Prep"),
-	Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_187623545(TEXT("/Script/Exam_Prep"),
+	Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_AIController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

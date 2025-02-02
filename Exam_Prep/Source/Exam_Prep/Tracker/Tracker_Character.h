@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Exam_Prep/Tracker/Tracking_TargetPoint.h" 
 #include "Tracker_Character.generated.h"
 
 UCLASS()
@@ -26,4 +27,21 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//_____________Speed_____________
+	float GetSpeed() const;
+	void SetSpeed(float newSpeed);
+
+	//_____________Spawner_____________
+	TObjectPtr<class ATrackerSpawn> spawner;
+
+	//_____________Spawner_____________
+	TArray<TObjectPtr<ATracking_TargetPoint>> mRetriveTargets;
+	int32 currentIndex = 0;
+
+private:
+	float speedControl = 0.f;
+	bool isTurning;
+
+
+	FQuat LookAt(const FVector& lookAt, const FVector& upDirection);
 };

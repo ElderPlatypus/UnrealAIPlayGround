@@ -21,6 +21,7 @@ public:
 	//Init OnPoses to overwrite
 	virtual void OnPossess(APawn* InPawn) override;
 
+	//___________Behaviour Tree_________________
 	UPROPERTY(EditAnywhere,Category="AI Controller")
 	TObjectPtr<UBehaviorTree> mEnemyBT;
 

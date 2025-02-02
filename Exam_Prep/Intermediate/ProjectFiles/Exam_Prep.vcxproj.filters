@@ -70,6 +70,12 @@
     <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_DropItem.h">
       <Filter>Source\Exam_Prep\Enemy</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_Retrieve.cpp">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Enemy\BT_Retrieve.h">
+      <Filter>Source\Exam_Prep\Enemy</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_AIController.cpp">
       <Filter>Source\Exam_Prep\Enemy</Filter>
     </ClCompile>
@@ -88,9 +94,36 @@
     <ClCompile Include="..\..\Source\Exam_Prep\Enemy\Enemy_TargetPoint.h">
       <Filter>Source\Exam_Prep\Enemy</Filter>
     </ClCompile>
+    <Filter Include="Source\Exam_Prep\Flocking">
+      <UniqueIdentifier>{3E37CE6D-631F-3010-9655-CC1A98C18CAC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Flocking\BoidCharacter.cpp">
+      <Filter>Source\Exam_Prep\Flocking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Flocking\BoidCharacter.h">
+      <Filter>Source\Exam_Prep\Flocking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Flocking\BoidSpawner.cpp">
+      <Filter>Source\Exam_Prep\Flocking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Flocking\BoidSpawner.h">
+      <Filter>Source\Exam_Prep\Flocking</Filter>
+    </ClCompile>
     <Filter Include="Source\Exam_Prep\Tracker">
       <UniqueIdentifier>{6C63C6A0-9D0F-340D-82DB-6D3B5CD44C59}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\BT_SetTargets.cpp">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\BT_SetTargets.h">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\TrackerSpawn.cpp">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\TrackerSpawn.h">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracker_AIController.cpp">
       <Filter>Source\Exam_Prep\Tracker</Filter>
     </ClCompile>
@@ -103,14 +136,11 @@
     <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracker_Character.h">
       <Filter>Source\Exam_Prep\Tracker</Filter>
     </ClCompile>
-    <Filter Include="Source\Exam_Prep\Universal">
-      <UniqueIdentifier>{81BC69C1-4512-385A-8018-1620B8C24658}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Exam_Prep\Universal\BT_Retrieve.cpp">
-      <Filter>Source\Exam_Prep\Universal</Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracking_TargetPoint.cpp">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Exam_Prep\Universal\BT_Retrieve.h">
-      <Filter>Source\Exam_Prep\Universal</Filter>
+    <ClCompile Include="..\..\Source\Exam_Prep\Tracker\Tracking_TargetPoint.h">
+      <Filter>Source\Exam_Prep\Tracker</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

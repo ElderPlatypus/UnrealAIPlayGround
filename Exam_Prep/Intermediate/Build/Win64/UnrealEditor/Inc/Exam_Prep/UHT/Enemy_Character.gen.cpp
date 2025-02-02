@@ -53,12 +53,27 @@ struct Z_Construct_UClass_AEnemy_Character_Statics
 		{ "Category", "Targets" },
 		{ "ModuleRelativePath", "Enemy/Enemy_Character.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_mMaxSpeed_MetaData[] = {
+		{ "Category", "Speed Control" },
+		{ "ModuleRelativePath", "Enemy/Enemy_Character.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_mMinSpeed_MetaData[] = {
+		{ "Category", "Speed Control" },
+		{ "ModuleRelativePath", "Enemy/Enemy_Character.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_mMaxAcceleration_MetaData[] = {
+		{ "Category", "Speed Control" },
+		{ "ModuleRelativePath", "Enemy/Enemy_Character.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_mRetriveObjects_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_mRetriveObjects;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_mRetriveTargets_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_mRetriveTargets;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_mStartPos;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_mMaxSpeed;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_mMinSpeed;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_mMaxAcceleration;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -71,12 +86,18 @@ const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEnemy_Characte
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mRetriveTargets_Inner = { "mRetriveTargets", nullptr, (EPropertyFlags)0x0104000000000000, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_AEnemy_TargetPoint_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mRetriveTargets = { "mRetriveTargets", nullptr, (EPropertyFlags)0x0114000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy_Character, mRetriveTargets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_mRetriveTargets_MetaData), NewProp_mRetriveTargets_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mStartPos = { "mStartPos", nullptr, (EPropertyFlags)0x0114000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy_Character, mStartPos), Z_Construct_UClass_AEnemy_TargetPoint_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_mStartPos_MetaData), NewProp_mStartPos_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mMaxSpeed = { "mMaxSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy_Character, mMaxSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_mMaxSpeed_MetaData), NewProp_mMaxSpeed_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mMinSpeed = { "mMinSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy_Character, mMinSpeed), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_mMinSpeed_MetaData), NewProp_mMinSpeed_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mMaxAcceleration = { "mMaxAcceleration", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AEnemy_Character, mMaxAcceleration), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_mMaxAcceleration_MetaData), NewProp_mMaxAcceleration_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemy_Character_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mRetriveObjects_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mRetriveObjects,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mRetriveTargets_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mRetriveTargets,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mStartPos,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mMaxSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mMinSpeed,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemy_Character_Statics::NewProp_mMaxAcceleration,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AEnemy_Character_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AEnemy_Character_Statics::DependentSingletons[])() = {
@@ -116,14 +137,14 @@ AEnemy_Character::~AEnemy_Character() {}
 // End Class AEnemy_Character
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemy_Character, AEnemy_Character::StaticClass, TEXT("AEnemy_Character"), &Z_Registration_Info_UClass_AEnemy_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_Character), 3498403807U) },
+		{ Z_Construct_UClass_AEnemy_Character, AEnemy_Character::StaticClass, TEXT("AEnemy_Character"), &Z_Registration_Info_UClass_AEnemy_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemy_Character), 324374280U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_4138752216(TEXT("/Script/Exam_Prep"),
-	Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_1145332490(TEXT("/Script/Exam_Prep"),
+	Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Enemy_Enemy_Character_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

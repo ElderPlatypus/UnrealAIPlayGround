@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exam_PrepModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97c37d85e284955c7edae5048fbdc427545d9377")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exam_PrepModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exam_PrepModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

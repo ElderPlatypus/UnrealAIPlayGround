@@ -1,14 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Exam_Prep/Enemy/BT_Allocate.h"
+#include "BT_Allocate.h"
 
 //Includes internal
 #include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
 
 //Includes
-#include "Exam_Prep/Enemy/Enemy_AIController.h"
-#include "Exam_Prep/Enemy/Enemy_Character.h"
+#include "Enemy_AIController.h"
+#include "Enemy_Character.h"
 
 EBTNodeResult::Type UBT_Allocate::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {

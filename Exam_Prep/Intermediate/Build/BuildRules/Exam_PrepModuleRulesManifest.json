@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Source\\Exam_Prep\\Exam_Prep.Build.cs",
-		"C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Source\\Exam_Prep.Target.cs",
-		"C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Source\\Exam_PrepEditor.Target.cs"
+		"C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Source\\Exam_Prep\\Exam_Prep.Build.cs",
+		"C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Source\\Exam_Prep.Target.cs",
+		"C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Source\\Exam_PrepEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.1"
 }

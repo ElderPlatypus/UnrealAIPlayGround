@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj": {}
+    "C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
@@ -1173,14 +1173,14 @@
         }
       }
     },
-    "C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj": {
+    "C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj",
         "projectName": "Exam_PrepModuleRules",
-        "projectPath": "C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\Exam_PrepModuleRules.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Documents\\Projects\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Documents\\Projects\\UnrealAIPlayGround\\Exam_Prep\\Intermediate\\Build\\BuildRulesProjects\\Exam_PrepModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lenovo\\documents\\projects\\unrealaiplayground\\exam_prep\\intermediate\\build\\win64\\unrealeditor\\inc\\exam_prep\\uht\\trackerspawn.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lenovo\\documents\\projects\\unrealaiplayground\\exam_prep\\intermediate\\build\\win64\\x64\\exam_prepeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\lenovo\\documents\\projects\\unrealaiplayground\\exam_prep\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\exam_prep\\definitions.exam_prep.h",
+            "c:\\users\\lenovo\\documents\\projects\\unrealaiplayground\\exam_prep\\source\\exam_prep\\tracker\\trackerspawn.h",
+            "c:\\users\\lenovo\\documents\\projects\\unrealaiplayground\\exam_prep\\intermediate\\build\\win64\\unrealeditor\\inc\\exam_prep\\uht\\trackerspawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,14 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Exam_Prep/Enemy/BT_DropItem.h"
+#include "BT_DropItem.h"
 
 //Includes internal
 #include "Runtime/AIModule/Classes/BehaviorTree/BlackboardComponent.h"
 
 //Includes
-#include "Exam_Prep/Enemy/Enemy_AIController.h"
-#include "Exam_Prep/Enemy/Enemy_Character.h"
+#include "Enemy_AIController.h"
+#include "Enemy_Character.h"
 
 EBTNodeResult::Type UBT_DropItem::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {

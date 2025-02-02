@@ -39,4 +39,13 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Targets")
 	TObjectPtr<AEnemy_TargetPoint> mStartPos;
+
+	UPROPERTY(EditAnywhere, Category = "Speed Control")
+	float mMaxSpeed = 10000.f;
+
+	UPROPERTY(EditAnywhere, Category = "Speed Control")
+	float mMinSpeed = 500.f;
+
+	UPROPERTY(EditAnywhere, Category = "Speed Control")
+	float mMaxAcceleration = 10000.f;
 };

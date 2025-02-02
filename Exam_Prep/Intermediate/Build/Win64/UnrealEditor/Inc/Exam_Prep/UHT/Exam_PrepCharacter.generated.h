@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define EXAM_PREP_Exam_PrepCharacter_generated_h
 
-#define FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAExam_PrepCharacter(); \
 	friend struct Z_Construct_UClass_AExam_PrepCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AExam_PrepCharacter)
 
 
-#define FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AExam_PrepCharacter(AExam_PrepCharacter&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AExam_PrepCharacter();
 
 
-#define FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_18_PROLOG
-#define FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_GENERATED_BODY \
+#define FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_18_PROLOG
+#define FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_INCLASS_NO_PURE_DECLS \
-	FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_ENHANCED_CONSTRUCTORS \
+	FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_INCLASS_NO_PURE_DECLS \
+	FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> EXAM_PREP_API UClass* StaticClass<class AExam_PrepCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Lenovo_Documents_Projects_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h
+#define CURRENT_FILE_ID FID_Users_Lenovo_Documents_Projects_UnrealAIPlayGround_Exam_Prep_Source_Exam_Prep_Exam_PrepCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

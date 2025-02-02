@@ -3,6 +3,8 @@
 
 #include "Exam_Prep/Enemy/Enemy_Character.h"
 
+#include "GameFramework/CharacterMovementComponent.h"
+
 // Sets default values
 AEnemy_Character::AEnemy_Character()
 {
@@ -15,7 +17,9 @@ AEnemy_Character::AEnemy_Character()
 void AEnemy_Character::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	this->GetCharacterMovement()->MaxAcceleration = mMaxAcceleration;
+	this->GetCharacterMovement()->MaxWalkSpeed = mMaxSpeed;
+	this->GetCharacterMovement()->MinAnalogWalkSpeed = mMinSpeed;
 }
 
 // Called every frame

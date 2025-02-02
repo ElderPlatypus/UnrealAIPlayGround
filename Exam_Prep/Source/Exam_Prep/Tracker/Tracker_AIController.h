@@ -13,5 +13,24 @@ UCLASS()
 class EXAM_PREP_API ATracker_AIController : public AAIController
 {
 	GENERATED_BODY()
-	
+
+public:
+	//Init Class
+	ATracker_AIController();
+
+	//Init OnPoses to overwrite
+	virtual void OnPossess(APawn* InPawn) override;
+
+
+	//___________Behaviour Tree_________________
+	UPROPERTY(EditAnywhere, Category = "AI Controller")
+	TObjectPtr<UBehaviorTree> mEnemyBT;
+
+
+	UPROPERTY(VisibleAnywhere, Category = "AI Controller")
+	TObjectPtr<class UBehaviorTreeComponent> mEnemyBTC;
+
+
+	UPROPERTY(VisibleAnywhere, Category = "AI Controller")
+	TObjectPtr<UBlackboardComponent> mEnemyBBC;
 };
